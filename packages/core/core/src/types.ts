@@ -79,7 +79,7 @@ export interface UseUserShipping<ADDRESS> {
   updateAddress: (address: ADDRESS) => Promise<void>;
   load: () => Promise<void>;
   defaultAddress: ComputedProperty<ADDRESS>;
-  setDefault (address: ADDRESS);
+  setDefault: (address: ADDRESS) => Promise<void>;
   loading: ComputedProperty<boolean>;
 }
 
@@ -91,7 +91,7 @@ export interface UseUserBilling<ADDRESS> {
   updateAddress: (address: ADDRESS) => Promise<void>;
   load: () => Promise<void>;
   defaultAddress: ComputedProperty<ADDRESS>;
-  setDefault (address: ADDRESS);
+  setDefault: (address: ADDRESS) => Promise<void>;
   loading: ComputedProperty<boolean>;
 }
 
