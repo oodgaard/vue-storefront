@@ -139,19 +139,3 @@ languageMap: {
 You can find detailed information about all API Client methods [here](./api-client/index.html)
 :::
 
-::: slot override
-
-```js
-import { override } from '@vue-storefront/commercetools-api'
-
-override({
-  getProduct(params) {
-    // new getProduct
-  },
-  getCategory (params) {
-    // new getCategory
-  }
-  // ...
-})
-```
-:::
