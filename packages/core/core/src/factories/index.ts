@@ -4,5 +4,7 @@ export * from './useCategoryFactory';
 export * from './useLocaleFactory';
 export * from './useProductFactory';
 export * from './useUserFactory';
+export * from './useUserShippingFactory';
+export * from './useUserBillingFactory';
 export * from './useUserOrdersFactory';
 export * from './apiClientFactory';
